@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+#-*- coding:utf-8 -*-
+"""
+Created on Nov 23, 2020
+@author: Chengning Zhang
+"""
+
 import numpy as np
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import roc_curve
