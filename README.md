@@ -12,4 +12,29 @@ This module implements 8 methods:
 * [SVMr](https://www.cambridge.org/core/books/an-introduction-to-support-vector-machines-and-other-kernelbased-learning-methods/A6A6F4084056A4B23F88648DDBFDD6FC)
 * [PEPE](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1541-0420.2005.00420.x?casa_token=dwAgLvAvM5UAAAAA%3AVh00VmFM1QDWQGKbhqGWpfOG-x2oaHrzWYX8AbcB72VC3_h0V6C2N2Kg19x9W1yohh-Yv06XL062ZBs)
 
+## Features
+
+R and Python friendly
+
+## Usage examples
+
+Python
+```javascript
+from numpy.random import multivariate_normal
+from utility.py import *
+
+u0 = [0.1,0.1,0.1, 0.1]; u1 = [0.6, 0.8, 1, 1.2]
+sigma = [[1,0.5,0.5,0.5],
+          [0.5,1,0.5,0.5],
+          [0.5,0.5,1,0.5],
+          [0.5,0.5,0.5,1]]
+X0 = multivariate_normal(u0, sigma, size = 100)
+X1 = multivariate_normal(u1, sigma, size = 80)
+model = AllMethod(method= method, bool_trans= False).fit(X0_train,X1_train)
+_,_, auc = model.predict(X0_val,X1_val)
+model.roc_plot(X0,X1)
+```
+
+
+
 
