@@ -3,6 +3,7 @@
 A custom implementation of all state of art methods for combining multiple tests, written from scratch in Python 3, API inspired by SciKit-learn. 
 This module implements 8 methods:
 
+* [PEPE](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1541-0420.2005.00420.x?casa_token=dwAgLvAvM5UAAAAA%3AVh00VmFM1QDWQGKbhqGWpfOG-x2oaHrzWYX8AbcB72VC3_h0V6C2N2Kg19x9W1yohh-Yv06XL062ZBs) - Combining diagnostic test results to increase accuracy - 
 * [SULIU](https://www.tandfonline.com/doi/abs/10.1080/01621459.1993.10476417)  -  Linear Combinations of Multiple Diagnostic Markers - 
 * [LOGISTIC](https://academic.oup.com/biomet/article-abstract/54/1-2/167/331528?redirectedFrom=PDF)
 * [STEPWISE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4180010/) - Linear combination methods to improve diagnostic/prognostic accuracy on  future observations - 
@@ -10,7 +11,6 @@ This module implements 8 methods:
 * [RANDOM FOREST](https://www.amazon.com/Classification-Regression-Wadsworth-Statistics-Probability/dp/0412048418)
 * [SVMl](https://www.cambridge.org/core/books/an-introduction-to-support-vector-machines-and-other-kernelbased-learning-methods/A6A6F4084056A4B23F88648DDBFDD6FC)
 * [SVMr](https://www.cambridge.org/core/books/an-introduction-to-support-vector-machines-and-other-kernelbased-learning-methods/A6A6F4084056A4B23F88648DDBFDD6FC)
-* [PEPE](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1541-0420.2005.00420.x?casa_token=dwAgLvAvM5UAAAAA%3AVh00VmFM1QDWQGKbhqGWpfOG-x2oaHrzWYX8AbcB72VC3_h0V6C2N2Kg19x9W1yohh-Yv06XL062ZBs) - Combining diagnostic test results to increase accuracy - 
 
 ## Features
 
